@@ -5,6 +5,9 @@
     
     
 }
+body{
+   
+}
 
 a{
     text-decoration: none;
@@ -93,9 +96,28 @@ header{
     right: 30px;
     width: 40px;
     cursor: pointer;
-    margin: 0% 2% ;
+    margin: 0% 0% ;
     display: none;
 
+}
+
+.section2{
+    background-color:#d2d2d2;
+    text-align: center;
+}
+
+.section2 h1{
+    padding: 3% 1px 1px 1px;
+}
+
+.img-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.img-section div{
+    margin: 12px 12px;
+    gap: 2%;
 }
 
 @media only screen and (max-width:850px){
@@ -123,6 +145,7 @@ header{
         justify-content: center;
         background-color: #484872;
         margin-top: -900px;
+        transition: all 0.5s ease;
         
     }
     .mobile-menu{
