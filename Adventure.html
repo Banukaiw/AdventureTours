@@ -9,16 +9,16 @@
 <body>
     <nav class="navbar">
         <h1 class="logo">Adventure</h1>
-        <div class="menus">
+        <ul class="nav-links">
             
                 <li class="active">Home</li>
                 <li>About US</li>
                 <li>Contact</li>
                 <li>Home</li>
                 <li class="ctn">Contact me</li>
-            
-            
-        </div>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+
     </nav>
     <header>
         <div class="header-content">
@@ -29,6 +29,14 @@
         </div>
         <div></div>
     </header>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
     
 </body>
 </html>
