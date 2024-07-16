@@ -96,6 +96,7 @@ header{
     color: white;
     border: none;
     border-radius: 15px;
+    
 }
 
 .menu-btn{
@@ -113,7 +114,7 @@ header{
     
     width: 80%;
     margin: 80px auto;
-    background-color: aqua;
+    
 }
 
 .title{
@@ -128,16 +129,82 @@ header{
     width: 100%;
     align-items: center;
     justify-content:space-between;
-}
-
-.row .col{
     
 }
 
-.row .col img{
-    width: 90%;
+
+.row .col{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin: 2% 3%;
+}
+
+.row .col img{
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
+
+.row .col img:hover{
+    transform: scale(1.09);
+   
+}
+
+.col .ctn{
+    margin-top: 2%;
+}
+
+.col p{
+    margin-top: 2%;
+}
+.col h3{
+    margin-top: 3%;
+    
+}
+
+.section03{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/bg2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+
+.section03 .sec03-cont{
+    width: 60%;
+    padding: 50px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section03 .sec03-cont h2{
+    font-size: 6vmin;
+    margin: 30px;
+    color: whitesmoke;
+}
+
+.section03 .sec03-cont .line2{
+    margin-bottom: 40px;
+    
+}
+
+.section03 .sec03-cont p{
+    font-size: 18px;
+    color: white;
+    
+}
+
+.sec03-cont a{
+    margin-top: 2%;
 }
 
 
