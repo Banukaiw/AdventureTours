@@ -96,6 +96,7 @@ header{
     color: white;
     border: none;
     border-radius: 15px;
+    
 }
 
 .menu-btn{
@@ -113,7 +114,7 @@ header{
     
     width: 80%;
     margin: 80px auto;
-    background-color: aqua;
+    
 }
 
 .title{
@@ -128,17 +129,143 @@ header{
     width: 100%;
     align-items: center;
     justify-content:space-between;
-}
-
-.row .col{
     
 }
 
-.row .col img{
-    width: 90%;
+
+.section2 .row .col{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin: 2% 3%;
 }
+
+.section2 .row .col img{
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
+
+.section2 .row .col img:hover{
+    transform: scale(1.09);
+   
+}
+
+.section2 .row .col .ctn{
+    margin-top: 2%;
+}
+
+.section2 .row .col p{
+    margin-top: 2%;
+}
+.section2 .row .col h3{
+    margin-top: 3%;
+    
+}
+
+.section03{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/bg2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+
+.section03 .sec03-cont{
+    width: 60%;
+    padding: 50px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section03 .sec03-cont h2{
+    font-size: 6vmin;
+    margin: 30px;
+    color: whitesmoke;
+}
+
+.section03 .sec03-cont .line2{
+    margin-bottom: 40px;
+    
+}
+
+.section03 .sec03-cont p{
+    font-size: 18px;
+    color: white;
+    
+}
+
+.sec03-cont a{
+    margin-top: 2%;
+}
+
+
+
+
+.section04 .row04{
+    display: flex;
+    padding: 2%;
+    
+    
+    
+}
+
+.section04 .row04 .col04{
+    width: 40%;
+    text-align: left;
+    margin: auto 1%;
+    
+    
+    
+}
+
+.section04 .row04 .col05{
+    width: 60%;
+    text-align: center;
+    margin: auto 1%;
+    
+    
+}
+.section04 .row04 .col04 .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.section04 .row04 .col04 .gallery img{
+    max-width: 25%;
+    padding: 2%;
+}
+
+
+.section04 .row04 .col04 h2{
+    font-size: 5vh;
+    color: #484872;
+}
+
+.section04 .row04 .col04 p{
+    font-size: 3vmin;
+    color: #000000;
+    margin: 30px auto;
+}
+
+.section04 .row04 .col04 .line2{
+    margin-left: 1px;
+}
+
+.section04 .row04 .col04 .ctn{
+    margin-top: 12%;
+    
+}
+
 
 
 @media only screen and (max-width:850px){
