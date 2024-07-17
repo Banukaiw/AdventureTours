@@ -133,33 +133,33 @@ header{
 }
 
 
-.row .col{
+.section2 .row .col{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2% 3%;
 }
 
-.row .col img{
+.section2 .row .col img{
     width: 100%;
     transition: 0.3s;
     cursor: pointer;
    
 }
 
-.row .col img:hover{
+.section2 .row .col img:hover{
     transform: scale(1.09);
    
 }
 
-.col .ctn{
+.section2 .row .col .ctn{
     margin-top: 2%;
 }
 
-.col p{
+.section2 .row .col p{
     margin-top: 2%;
 }
-.col h3{
+.section2 .row .col h3{
     margin-top: 3%;
     
 }
@@ -206,6 +206,66 @@ header{
 .sec03-cont a{
     margin-top: 2%;
 }
+
+
+
+
+.section04 .row04{
+    display: flex;
+    padding: 2%;
+    
+    
+    
+}
+
+.section04 .row04 .col04{
+    width: 40%;
+    text-align: left;
+    margin: auto 1%;
+    
+    
+    
+}
+
+.section04 .row04 .col05{
+    width: 60%;
+    text-align: center;
+    margin: auto 1%;
+    
+    
+}
+.section04 .row04 .col04 .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.section04 .row04 .col04 .gallery img{
+    max-width: 25%;
+    padding: 2%;
+}
+
+
+.section04 .row04 .col04 h2{
+    font-size: 5vh;
+    color: #484872;
+}
+
+.section04 .row04 .col04 p{
+    font-size: 3vmin;
+    color: #000000;
+    margin: 30px auto;
+}
+
+.section04 .row04 .col04 .line2{
+    margin-left: 1px;
+}
+
+.section04 .row04 .col04 .ctn{
+    margin-top: 12%;
+    
+}
+
 
 
 @media only screen and (max-width:850px){
