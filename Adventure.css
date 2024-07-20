@@ -266,7 +266,22 @@ header{
     
 }
 
+footer{
+    width: 100%;
+    min-height: 100px;
+    background-color: #484872;
+    padding: 20px 80px;
+    text-align: center;
+    margin: 0;
+}
 
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px auto;
+    
+
+}
 
 
 
@@ -310,5 +325,7 @@ header{
         display: block;
     }
 
-   
+    .row{
+        flex-direction: column;
+    }
 }
