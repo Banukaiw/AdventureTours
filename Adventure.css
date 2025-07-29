@@ -1,9 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box; 
 }
 body{
    
@@ -44,7 +42,6 @@ a{
     margin: 0px 30px;
     align-items: center;
 }
-
 
 header{
     width: 100vw;
@@ -222,10 +219,7 @@ header{
     width: 40%;
     text-align: left;
     margin: auto 1%;
-    
-    
-    
-    
+       
 }
 
 .section04 .row04 .col05{
@@ -288,6 +282,7 @@ footer p{
     margin: 20px auto;
     
 }
+
 
 footer{}
 
